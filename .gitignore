@@ -1,0 +1,8 @@
+/.venv/
+/__pycache__/
+/.ipynb_checkpoints/
+/utils/__pycache__/
+/vertex_coloring/__pycache__/
+/vertex_coloring/.venv/
+/max_clique/.venv/
+/max_clique/__pycache__/

@@ -41,7 +41,7 @@ def ind_sets_search():
         while(len(candidates) != 0):
             node = random.choice(candidates)
             tmp_set_d.append(node)
-            tmp_weight_d += WEIGHTS[start_ver_d]
+            tmp_weight_d += WEIGHTS[node]
             candidates = get_unconnected_vertices(node, candidates)
         if tmp_weight_d > winner_weight:
             winner_set = tmp_set_d
